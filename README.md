@@ -1,5 +1,7 @@
-This is a program that takes a CSV or text file, sorts a specific column, and then outputs it to a file of your choice.
+This is a program that takes a CSV file, sorts the file by a column, and then writes it to a file.
 
 Usage:
 
-python3 csvproject.py (your input file here!) (your output file here!) (your column of choice here!)
+```console
+python3 csvproject.py --inputfile infile.csv --outputfile outfile.csv --columnchoice column
+```
